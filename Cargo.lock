@@ -1738,9 +1738,9 @@ dependencies = [
 
 [[package]]
 name = "env_logger"
-version = "0.9.0"
+version = "0.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b2cf0344971ee6c64c31be0d530793fba457d322dfec2810c453d0ef228f9c3"
+checksum = "a12e6657c4c97ebab115a42dcee77225f7f482cdd841cf7088c657a42e9e00e7"
 dependencies = [
  "atty",
  "humantime 2.1.0",
@@ -5950,7 +5950,7 @@ name = "polkadot-approval-distribution"
 version = "0.9.31"
 dependencies = [
  "assert_matches",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "futures",
  "log",
  "polkadot-node-network-protocol",
@@ -5975,7 +5975,7 @@ version = "0.9.31"
 dependencies = [
  "assert_matches",
  "bitvec",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "futures",
  "log",
  "maplit",
@@ -6028,7 +6028,7 @@ name = "polkadot-availability-recovery"
 version = "0.9.31"
 dependencies = [
  "assert_matches",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "fatality",
  "futures",
  "futures-timer",
@@ -6127,7 +6127,7 @@ dependencies = [
  "always-assert",
  "assert_matches",
  "bitvec",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "fatality",
  "futures",
  "futures-timer",
@@ -6326,7 +6326,7 @@ version = "0.9.31"
 dependencies = [
  "assert_matches",
  "bitvec",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "futures",
  "futures-timer",
  "kvdb",
@@ -6741,7 +6741,7 @@ dependencies = [
  "assert_matches",
  "async-trait",
  "derive_more",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "fatality",
  "futures",
  "itertools",
@@ -6820,7 +6820,7 @@ dependencies = [
 name = "polkadot-performance-test"
 version = "0.9.31"
 dependencies = [
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "kusama-runtime",
  "log",
  "polkadot-erasure-coding",
@@ -7131,7 +7131,7 @@ dependencies = [
  "async-trait",
  "beefy-gadget",
  "beefy-primitives",
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "frame-support",
  "frame-system-rpc-runtime-api",
  "futures",
@@ -8057,7 +8057,7 @@ name = "remote-externalities"
 version = "0.10.0-dev"
 source = "git+https://github.com/paritytech/substrate?branch=master#ea71267aeb2b627d7a65a16ea6c12d1923d5564a"
 dependencies = [
- "env_logger 0.9.0",
+ "env_logger 0.9.3",
  "log",
  "parity-scale-codec",
  "serde",
